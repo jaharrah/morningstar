@@ -148,7 +148,7 @@ public class GroceryStoreSimulator {
      * Runs the grocery store.  Running a grocery store involves opening all the cashiers in the first minute,
      * and then continuing to run the store while there's customers still shopping, or still in line at the cashier
      * they chose to wait for.
-     * @return The total time it takes to process all the customers in the grocery store.
+     * @return The time it takes to process all the customers in the grocery store.
      * @throws MinimumCashiersException Thrown when the total number of cashiers available is less than one.
      */
     public int runGroceryStore() throws MinimumCashiersException {
